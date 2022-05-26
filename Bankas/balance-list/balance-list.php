@@ -12,7 +12,7 @@
 
 <body>
     <h1 class="text">Balance list</h1>
-<div>
+<div class="list">
     <button class="btnDel" type="submit">Delete account</button>
     <button class="btnAdd" type="submit">
         <a class="link" href="http://localhost/php-bankas/bankas/add-funds/add-funds.php#">Add funds</a>

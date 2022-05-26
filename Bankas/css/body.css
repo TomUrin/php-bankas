@@ -3,12 +3,12 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #222237;
-    min-height: 100vh;
+    
 }
 
-div {
+.list {
+    margin-top: calc(50vh - 50px);
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 }

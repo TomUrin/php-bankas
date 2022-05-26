@@ -6,10 +6,9 @@ button {
 }
 
 h1 {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
     color: #fff;
 }
 
