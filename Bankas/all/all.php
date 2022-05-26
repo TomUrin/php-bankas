@@ -1,7 +1,6 @@
 <?php
 
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
-    sleep(10);
     header('Location: http://localhost/php-bankas/bankas/balance-list/balance-list.php#');
     header('Location: http://localhost/php-bankas/bankas/add-funds/add-funds.php#');
     header('Location: http://localhost/php-bankas/bankas/deduct-funds/deduct-funds.php#');

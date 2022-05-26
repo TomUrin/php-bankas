@@ -10,10 +10,11 @@
     
 </head>
 <body>
-    <button class="btn" type="submit">
+    <button class="btnDel" type="submit">Delete account</button>
+    <button class="btnAdd" type="submit">
         <a class="link" href="http://localhost/php-bankas/bankas/add-funds/add-funds.php#">Add funds</a>
     </button>
-    <button class="btn" type="submit">
+    <button class="btnDed" type="submit">
         <a class="link" href="http://localhost/php-bankas/bankas/deduct-funds/deduct-funds.php#">Deduct funds</a>
     </button>
 </body>

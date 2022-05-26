@@ -1,8 +1,26 @@
-.btn {
+button {
     margin: 0 40px;
     width: 200px;
     height: 50px;
     border-radius: 50px;
+}
+.btnAdd:hover {
+    background-color: green;
+}
+
+.btnDed:hover {
+    background-color: yellow;
+}
+
+.btnDel {
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
+.btnDel:hover {
+    background-color: crimson;
+    font-size: 25px;
 }
 
 .link {
