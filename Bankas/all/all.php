@@ -26,7 +26,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         <li style="--i:1;"><a href="http://localhost/php-bankas/bankas/balance-list/balance-list.php#" target="_blank"><ion-icon name="list-circle-outline"></ion-icon></a></li>
         <li style="--i:2;"><a href="http://localhost/php-bankas/bankas/add-funds/add-funds.php#" target="_blank"><ion-icon name="add-circle-outline"></ion-icon></a></li>
         <li style="--i:3;"><a href="http://localhost/php-bankas/bankas/deduct-funds/deduct-funds.php#" target="_blank"><ion-icon name="remove-circle-outline"></ion-icon></a></li>
-        <li style="--i:4;"><a href="http://localhost/php-bankas/bankas/add-new-balance/add-new-balance.php#" target="_blank"><ion-icon name="newspaper-outline"></ion-icon></a></li>
+        <li style="--i:4;"><a href="http://localhost/php-bankas/bankas/add-new-balance/add-new-balance.php#" target="_blank"><ion-icon name="person-add-outline"></ion-icon></a></li>
         <div class="indicator">
         </div>
     </ul>
