@@ -17,7 +17,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>MENU</title>
     <link rel="stylesheet" href="../css/body.css">
     <link rel="stylesheet" href="../css/styleForAll.css">
-    
 </head>
 <body>
     <ul class="menu">
