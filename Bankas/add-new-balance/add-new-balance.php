@@ -46,7 +46,7 @@
         </div>
         <div class="row100">
             <div class="col">
-                <button type="submit" value="send">SEND</button>
+                <button class="add" type="submit" value="send">SEND</button>
             </div>
         </div>
 </div>
