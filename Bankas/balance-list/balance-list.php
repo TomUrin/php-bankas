@@ -15,11 +15,13 @@
     });
 
     foreach($data as $key => $account) {
-    $name = $account['name'];
-    $surname = $account['surname'];
-    $number = $account['number'];
-    $id = $account['id'];
-    $num = $key + 1;
+        $num = $key + 1;
+        $name = $account['name'];
+        $surname = $account['surname'];
+        $number = $account['number'];
+        $id = $account['id'];
+        $balance = $account['balance'];
+    
 }
 ?>
 <!DOCTYPE html>
@@ -42,11 +44,12 @@
                 <h2>Num</h2>
                     <?php
                         foreach($data as $key => $account) {
+                            $num = $key + 1;
                             $name = $account['name'];
                             $surname = $account['surname'];
                             $number = $account['number'];
                             $id = $account['id'];
-                            $num = $key + 1;
+                            $balance = $account['balance'];
                     ?>
                     <?php 
                         echo "<p>$num</p>";
@@ -57,11 +60,12 @@
                 <h2>Name</h2>
                     <?php
                         foreach($data as $key => $account) {
+                            $num = $key + 1;
                             $name = $account['name'];
                             $surname = $account['surname'];
                             $number = $account['number'];
                             $id = $account['id'];
-                            $num = $key + 1;
+                            $balance = $account['balance'];
                     ?>
                     <?php 
                         echo "<p>$name</p>";
@@ -72,11 +76,12 @@
                 <h2>Surname</h2>
                     <?php
                         foreach($data as $key => $account) {
+                            $num = $key + 1;
                             $name = $account['name'];
                             $surname = $account['surname'];
                             $number = $account['number'];
                             $id = $account['id'];
-                            $num = $key + 1;
+                            $balance = $account['balance'];
                     ?>
                     <?php 
                         echo "<p>$surname</p>";
@@ -87,10 +92,12 @@
                 <h2>Number</h2>
                     <?php
                         foreach($data as $account) {
-                        $name = $account['name'];
-                        $surname = $account['surname'];
-                        $number = $account['number'];
-                        $id = $account['id'];
+                            $num = $key + 1;
+                            $name = $account['name'];
+                            $surname = $account['surname'];
+                            $number = $account['number'];
+                            $id = $account['id'];
+                            $balance = $account['balance'];
                     ?>
                     <?php 
                         echo "<p>$number</p>";
@@ -101,10 +108,12 @@
                 <h2>ID</h2>
                     <?php
                         foreach($data as $account) {
-                        $name = $account['name'];
-                        $surname = $account['surname'];
-                        $number = $account['number'];
-                        $id = $account['id'];
+                            $num = $key + 1;
+                            $name = $account['name'];
+                            $surname = $account['surname'];
+                            $number = $account['number'];
+                            $id = $account['id'];
+                            $balance = $account['balance'];
                     ?>
                     <?php 
                         echo "<p>$id</p>";
@@ -115,13 +124,15 @@
                 <h2>Balance</h2>
                     <?php
                         foreach($data as $account) {
-                        $name = $account['name'];
-                        $surname = $account['surname'];
-                        $number = $account['number'];
-                        $id = $account['id'];
+                            $num = $key + 1;
+                            $name = $account['name'];
+                            $surname = $account['surname'];
+                            $number = $account['number'];
+                            $id = $account['id'];
+                            $balance = $account['balance'];
                     ?>
                     <?php 
-                        echo "<p class='balance'>0</p>";
+                        echo "<p>$balance</p>";
                         }
                     ?>
             </div>

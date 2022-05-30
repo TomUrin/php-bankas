@@ -44,7 +44,7 @@ if(isset($_POST['submit'])) {
             </div>
             <div class="col">
                 <div class="inputBox">
-                    <input type="text" name="id" required="required"></input>
+                    <input type="number" name="id" required="required"></input>
                     <span class="text">Personal ID</span>
                     <span class="line"></span>
                 </div>

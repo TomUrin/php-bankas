@@ -1,11 +1,12 @@
 <?php
 
-if(isset($_POST['submit'])) {
+if(isset($_POST['submit']) || $_POST['balance']) {
     $newAccount = array(
         "name" => $_POST['name'],
         "surname" => $_POST['surname'],
         "number" => $_POST['number'],
         "id" => $_POST['id'],
+        "balance" => $_POST['balance'],
     );
     if(filesize("accounts.json") == 0) {
         $firstAccount = array($newAccount);

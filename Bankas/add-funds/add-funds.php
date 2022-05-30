@@ -1,3 +1,8 @@
+<?php
+if(isset($_POST['balance'])) {
+    header('Location: http://localhost/php-bankas/bankas/balance-list/balance-list.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,13 +20,18 @@
             <div class="row100">
                 <form class="col" method="post">
                     <div class="inputBox">
-                        <input type="text" name="" required="required"></input>
+                        <input type="number" name="value" required="required"></input>
                         <span class="text">Sum</span>
                         <span class="line"></span>
                     </div>
+                    <button class="add" type="submit" name="balance" value="<?php $result ?>">SEND</button>
                 </form>
             </div>
         </div>
     </section>
 </body>
 </html>
+<?php
+$result = 0;
+
+?>
