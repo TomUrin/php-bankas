@@ -11,6 +11,13 @@ body {
     min-height: 100vh;
     background-color: #222237;
 }
+
+.bank {
+    color: #fff;
+    font-size: 36px;
+    
+}
+
 .menu {
     position: relative;
     width: 300px;

@@ -11,7 +11,7 @@
 <body>
     <section>
         <div class="container">
-            <h2>Deduct funds</h2>
+            <h2>- MONEY</h2>
             <div class="row100">
                 <form class="col" method="post">
                     <div class="inputBox">

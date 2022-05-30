@@ -7,6 +7,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     header('Location: http://localhost/php-bankas/bankas/add-new-balance/add-new-balance.php#');
 }
 
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,6 +20,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     <link rel="stylesheet" href="../css/styleForAll.css">
 </head>
 <body>
+    <h1 class="bank">BANK</h1>
     <ul class="menu">
         <div class="toggle"><ion-icon name="add-outline"></ion-icon></div>
         <li style="--i:0;" class="active"><a href="http://localhost/php-bankas/bankas/all/all.php#"><ion-icon name="home-outline"></ion-icon></a></li>
