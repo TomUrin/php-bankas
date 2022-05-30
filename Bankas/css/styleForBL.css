@@ -38,7 +38,7 @@
 
 .col {
     display: inline-block;
-    margin: 25px 70px;
+    margin: 25px 40px;
 }
 
 button {
@@ -61,6 +61,11 @@ h2 {
 
 p {
     color: #fff;
+}
+
+.balance {
+    color: #fff;
+    text-align: center;
 }
 
 .btnAdd:hover {
