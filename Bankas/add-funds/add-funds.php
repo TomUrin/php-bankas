@@ -1,5 +1,4 @@
 <?php
-require("../data/count.php");
 if(isset($_POST['submit'])) {
     header('Location: http://localhost/php-bankas/bankas/balance-list/balance-list.php');
 }
