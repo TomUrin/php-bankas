@@ -16,8 +16,7 @@ if(isset($_POST['submit'])) {
         array_push($oldAccounts, $newAccount);
         $dataToSave = $oldAccounts;
     };
-
-    file_put_contents("accounts.json", json_encode($dataToSave));
+    !file_put_contents("accounts.json", json_encode($dataToSave, JSON_PRETTY_PRINT));
 }
 
 ?>
