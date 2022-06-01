@@ -41,31 +41,10 @@
     <div class="all">
         <div class="container">
         <div class="col">
-                <h2>Num</h2>
-                    <?php
-                        foreach($data as $key => $account) {
-                            $num = $key + 1;
-                            $name = $account['name'];
-                            $surname = $account['surname'];
-                            $number = $account['number'];
-                            $id = $account['id'];
-                            $balance = $account['balance'];
-                    ?>
-                    <?php 
-                        echo "<p>$num</p>";
-                        }
-                    ?>
-            </div>
-            <div class="col">
                 <h2>Name</h2>
                     <?php
                         foreach($data as $key => $account) {
-                            $num = $key + 1;
                             $name = $account['name'];
-                            $surname = $account['surname'];
-                            $number = $account['number'];
-                            $id = $account['id'];
-                            $balance = $account['balance'];
                     ?>
                     <?php 
                         echo "<p>$name</p>";
@@ -75,13 +54,8 @@
             <div class="col">
                 <h2>Surname</h2>
                     <?php
-                        foreach($data as $key => $account) {
-                            $num = $key + 1;
-                            $name = $account['name'];
+                        foreach($data as $key => $account) {   
                             $surname = $account['surname'];
-                            $number = $account['number'];
-                            $id = $account['id'];
-                            $balance = $account['balance'];
                     ?>
                     <?php 
                         echo "<p>$surname</p>";
@@ -89,18 +63,13 @@
                     ?>
             </div>
             <div class="col">
-                <h2>Number</h2>
+                <h2>Account number</h2>
                     <?php
                         foreach($data as $account) {
-                            $num = $key + 1;
-                            $name = $account['name'];
-                            $surname = $account['surname'];
                             $number = $account['number'];
-                            $id = $account['id'];
-                            $balance = $account['balance'];
                     ?>
                     <?php 
-                        echo "<p>$number</p>";
+                        echo "<p class='acc'>$number</p>";
                         }
                     ?>
             </div>
@@ -108,27 +77,17 @@
                 <h2>ID</h2>
                     <?php
                         foreach($data as $account) {
-                            $num = $key + 1;
-                            $name = $account['name'];
-                            $surname = $account['surname'];
-                            $number = $account['number'];
                             $id = $account['id'];
-                            $balance = $account['balance'];
                     ?>
                     <?php 
                         echo "<p>$id</p>";
                         }
                     ?>
             </div>
-            <div class="col">
-                <h2>Balance</h2>
+            <div class="colBalance">
+                <h2 >Balance</h2>
                     <?php
                         foreach($data as $account) {
-                            $num = $key + 1;
-                            $name = $account['name'];
-                            $surname = $account['surname'];
-                            $number = $account['number'];
-                            $id = $account['id'];
                             $balance = $account['balance'];
                     ?>
                     <?php 
@@ -136,10 +95,19 @@
                         }
                     ?>
             </div>
+            <div class="colBalance">
+                <h2>DELETE</h2>
+                    <?php
+                        foreach($data as $account) {
+                    ?>
+                    <?php 
+                        echo "<button class='btnDel' type='submit'>Delete</button>";
+                        }
+                    ?>
+            </div>
         </div>
     </div>
     <div class="list">
-        <button class="btnDel" type="submit">Delete account</button>
         <button class="btnAdd" type="submit">
             <a class="link" href="http://localhost/php-bankas/bankas/add-funds/add-funds.php#">Add funds</a>
         </button>

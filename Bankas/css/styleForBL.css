@@ -38,7 +38,22 @@
 
 .col {
     display: inline-block;
-    margin: 25px 40px;
+    margin: 25px 30px;
+}
+
+.acc {
+    cursor: pointer;
+}
+
+.acc:hover {
+    background-color: skyblue;
+    border-radius: 3px;
+}
+
+.colBalance {
+    display: inline-block;
+    margin: 25px 30px;
+    text-align: center;
 }
 
 button {
@@ -63,29 +78,29 @@ p {
     color: #fff;
 }
 
-.balance {
-    color: #fff;
-    text-align: center;
-}
-
 .btnAdd:hover {
     background-color: green;
-    transition: all 0.5s;
+    transition: all 0.2s;
 }
 
 .btnDed:hover {
     background-color: yellow;
-    transition: all 0.5s;
+    transition: all 0.2s;
 }
 
 .btnDel {
+    display: block;
+    margin: 10px 20px;
+    width: 80px;
+    height: 24px;
+    border-radius: 10px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .btnDel:hover {
     background-color: crimson;
-    transition: all 0.7s;
+    transition: all 0.2s;
 }
 
 .link {

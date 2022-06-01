@@ -1,7 +1,14 @@
 <?php
-if(isset($_POST['balance'])) {
+require("../data/count.php");
+if(isset($_POST['submit'])) {
     header('Location: http://localhost/php-bankas/bankas/balance-list/balance-list.php');
 }
+
+$accounts = file_get_contents('../add-new-balance/accounts.json');
+
+    $data = json_decode($accounts, true);
+
+$result = 0;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,20 +25,16 @@ if(isset($_POST['balance'])) {
         <div class="container">
             <h2>+ MONEY</h2>
             <div class="row100">
-                <form class="col" method="post">
+                <form class="col" method="POST" type="submit">
                     <div class="inputBox">
-                        <input type="number" name="value" required="required"></input>
+                        <input type="text" name="value" required="required"><?php $result ?></input>
                         <span class="text">Sum</span>
                         <span class="line"></span>
                     </div>
-                    <button class="add" type="submit" name="balance" value="<?php $result ?>">SEND</button>
+                    <button class="add" type="submit" name="sub" value="send">SEND</button>
                 </form>
             </div>
         </div>
     </section>
 </body>
 </html>
-<?php
-$result = 0;
-
-?>

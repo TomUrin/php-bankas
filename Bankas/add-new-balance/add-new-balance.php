@@ -37,14 +37,14 @@ if(isset($_POST['submit'])) {
         <div class="row100">
             <div class="col">
                 <div class="inputBox">
-                    <input type="text" value="<?php echo mt_rand(100000, 999999);?>" name="number" />
+                    <input type="text" name="number" value="LT<?php echo mt_rand(10, 99) ?> <?php echo mt_rand(1000, 9999) ?> <?php echo mt_rand(1000, 9999) ?> <?php echo mt_rand(1000, 9999) ?> <?php echo mt_rand(1000, 9999) ?>"/>
                     <span class="text">Account number</span>
                     <span class="line"></span>
                 </div>
             </div>
             <div class="col">
                 <div class="inputBox">
-                    <input type="number" name="id" required="required"></input>
+                    <input type="text" name="id" required="required"></input>
                     <span class="text">Personal ID</span>
                     <span class="line"></span>
                 </div>
